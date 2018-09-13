@@ -16,26 +16,25 @@ a {
 
 .container {
     width: 100%;
-    max-width: 1140px;
+    max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
 }
 
-/*заглушка для обтекания*/
-.row:after{
-    clear: both;
-    content: "";
-    display: table;
+.row{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .col-4 {
     width: 360px;
     margin-right: 30px;
-    float: left;
 }
 .col-4:last-child{
     margin-right: 0px;
 }
+
 
 /*HEADER*/
 .header {
@@ -84,12 +83,13 @@ a {
     margin-bottom: 60px;
     font-family:'Merriweather', serif;
     text-align: center;
-    
 }
 
 .portfolio_item_img {
     margin-bottom: 17px;
-    
+}
+.portfolio_item_img img{
+    width: 100%;
 }
 
 .portfolio_item_title {
@@ -98,9 +98,6 @@ a {
     margin-bottom: 5px;
     
 }
-
-
-
 .portfolio {
     padding-top: 70px;
     padding-bottom: 100px;
@@ -109,6 +106,9 @@ a {
 
 .portfolio_item {
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .portfolio_item_title a{
@@ -125,7 +125,7 @@ a {
 .portfolio_item_text p {
     margin-top: 0px;
     margin-bottom: 15px;
-    
+    text-align: center;
 }
 
 
@@ -182,12 +182,13 @@ PORTGOLIO SINGLE PAGE
     background-color: #061634;
     color: #6479a2;
     padding-top: 90px;
-    padding-bottom: 190px;
+    padding-bottom: 50px;
     
 }
 .footer p{
     margin-top: 0;
     margin-bottom: 15px;
+    text-align: center;
 }
 p.footer_name {
     font-size: 28px;
