@@ -17,8 +17,7 @@ a {
 .container {
     width: 100%;
     max-width: 1400px;
-    margin-left: auto;
-    margin-right: auto;
+   margin: 0 auto;
 }
 
 .row{
@@ -96,6 +95,7 @@ a {
     font-size: 24px;
     line-height: normal;
     margin-bottom: 5px;
+    text-align: center;
     
 }
 .portfolio {
@@ -141,9 +141,10 @@ PORTGOLIO SINGLE PAGE
     text-align: center;
 }
 .portfolio_single_page img{
-    margin-bottom: 50px;
+    margin: 30px auto;
     max-width: 100%;
     height: auto;
+    display: block;
 }
 .button_back {
     display: inline-block;
@@ -171,6 +172,16 @@ PORTGOLIO SINGLE PAGE
     color: #fff;
     background-color:#0052C2;
 }
+p.todo{
+    font-size: 20px;
+    color: #0052C2;
+}
+p.todo_text {
+    width: 80%;
+    margin: 5px auto;
+    padding-bottom: 20px;
+}
+
 
 
 
@@ -277,7 +288,7 @@ p.footer_social_icons a:hover {
     }
     .footer{
         padding-top: 70px;
-        padding-bottom: 60px;
+        padding-bottom: 40px;
     }
 }
 
