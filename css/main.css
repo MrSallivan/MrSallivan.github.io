@@ -181,7 +181,10 @@ p.todo_text {
     margin: 5px auto;
     padding-bottom: 20px;
 }
-
+.image_big {
+    max-width: 650px;
+    max-height: 1050px;
+}
 
 
 
