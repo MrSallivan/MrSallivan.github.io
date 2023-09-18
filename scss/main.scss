@@ -68,6 +68,7 @@ main {
   grid-gap: 30px;
   grid-template-areas:
     "bioimage bio bio"
+		"header header header"
     "job1 job2 job3";
   grid-template-columns: repeat(3, 1fr);
   .bio-image {
@@ -91,7 +92,10 @@ main {
 			color: $secondary-color;
 		}
   }
-
+	.key-header{
+		grid-area: header;
+		font-size: 2.5rem;
+	}
   .job-1 {
     grid-area: job1;
   }

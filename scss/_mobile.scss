@@ -59,6 +59,7 @@
     grid-template-areas:
       "bioimage"
       "bio"
+			"header"
       "job1"
       "job2"
       "job3";
@@ -150,7 +151,6 @@
     }
   }
 }
-
 @include mediaSsLs{
 	.menu .nav-link{
 		font-size: 20px;

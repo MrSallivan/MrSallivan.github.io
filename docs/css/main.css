@@ -167,7 +167,7 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: "bioimage bio bio" "job1 job2 job3";
+  grid-template-areas: "bioimage bio bio" "header header header" "job1 job2 job3";
   grid-template-columns: repeat(3, 1fr); }
   .about-info .bio-image {
     display: block;
@@ -185,6 +185,9 @@ main {
     border-bottom: 3px solid #eece1a; }
     .about-info .myCV-link:hover {
       color: #eece1a; }
+  .about-info .key-header {
+    grid-area: header;
+    font-size: 2.5rem; }
   .about-info .job-1 {
     grid-area: job1; }
   .about-info .job-2 {
@@ -309,7 +312,7 @@ main {
       width: 210px;
       height: 210px; }
   .about-info {
-    grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
+    grid-template-areas: "bioimage" "bio" "header" "job1" "job2" "job3";
     grid-template-columns: 1fr; }
     .about-info .bio {
       display: flex;
