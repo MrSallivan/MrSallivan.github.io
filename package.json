@@ -1,0 +1,14 @@
+{
+  "name": "my_simple_portfolio",
+  "version": "1.0.0",
+  "description": "Aleksei Nikolaenko modern portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Alexei Nikolaenko",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
