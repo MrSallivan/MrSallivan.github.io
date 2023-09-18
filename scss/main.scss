@@ -83,6 +83,15 @@ main {
     grid-area: bio;
     font-size: 1.5rem;
   }
+
+  .myCV-link {
+    display: inline-block;
+    border-bottom: 3px solid $secondary-color;
+		&:hover{
+			color: $secondary-color;
+		}
+  }
+
   .job-1 {
     grid-area: job1;
   }
@@ -131,15 +140,15 @@ main {
       background: $secondary-color;
       color: set-text-color($secondary-color);
       span {
-				@include easeOut;
+        @include easeOut;
         color: set-text-color($secondary-color);
       }
     }
   }
   div:nth-child(3) {
     display: flex;
-		align-items: center;
-		justify-content: center;
+    align-items: center;
+    justify-content: center;
     .icons {
       border: none;
       margin: 0;
@@ -153,7 +162,6 @@ main {
       }
     }
   }
-  
 }
 
 //!Button styles

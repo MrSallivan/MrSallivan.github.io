@@ -180,6 +180,11 @@ main {
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
+  .about-info .myCV-link {
+    display: inline-block;
+    border-bottom: 3px solid #eece1a; }
+    .about-info .myCV-link:hover {
+      color: #eece1a; }
   .about-info .job-1 {
     grid-area: job1; }
   .about-info .job-2 {
