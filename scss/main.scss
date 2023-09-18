@@ -109,6 +109,10 @@ main {
     background: lighten($primary-color, 5);
     padding: 0.5rem;
     border-bottom: 3px solid $secondary-color;
+		svg{
+			width: 100px;
+			height: 100px;
+		}
   }
 }
 // !Work/Projects

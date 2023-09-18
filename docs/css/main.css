@@ -198,6 +198,9 @@ main {
     background: #515151;
     padding: 0.5rem;
     border-bottom: 3px solid #eece1a; }
+    .about-info .job svg {
+      width: 100px;
+      height: 100px; }
 
 .projects {
   display: grid;
