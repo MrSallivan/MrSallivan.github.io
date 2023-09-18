@@ -23,6 +23,10 @@ $background-opacity: 0.9;
         height: 100%;
         z-index: -1;
         background: rgba($primary-color, $background-opacity);
+
+				@media screen and (orientation:landscape) {
+					height: 100vw;
+				}
       }
     }
   }
@@ -38,6 +42,16 @@ $background-opacity: 0.9;
 //Media Query Mixins
 @mixin mediaSs {
   @media screen and (max-width: 350px) {
+    @content;
+  }
+}
+@mixin mediaSsLs {
+  @media screen and (orientation:landscape) and (max-height: 420px) {
+    @content;
+  }
+}
+@mixin mediaSsLs360 {
+  @media screen and (orientation:landscape) and (max-height: 360px) {
     @content;
   }
 }

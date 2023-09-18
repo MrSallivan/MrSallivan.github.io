@@ -150,3 +150,20 @@
     }
   }
 }
+
+@include mediaSsLs{
+	.menu .nav-link{
+		font-size: 20px;
+	}
+	.menu-branding {
+    .portrait {
+      width: 100px;
+			height: 100px;
+    }
+  }
+}
+@include mediaSsLs360{
+	.menu .nav-link{
+		font-size: 15px;
+	}
+}

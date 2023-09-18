@@ -100,7 +100,7 @@
 body {
   background: #444;
   color: #fff;
-  height: 100%;
+  height: 100vh;
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
@@ -117,6 +117,9 @@ body {
       height: 100%;
       z-index: -1;
       background: rgba(68, 68, 68, 0.9); }
+      @media screen and (orientation: landscape) {
+        body#bg-image:after {
+          height: 100vw; } }
 
 h1,
 h2,
@@ -367,3 +370,14 @@ main {
   .menu-branding .portrait {
     width: 150px;
     height: 150px; } }
+
+@media screen and (orientation: landscape) and (max-height: 420px) {
+  .menu .nav-link {
+    font-size: 20px; }
+  .menu-branding .portrait {
+    width: 100px;
+    height: 100px; } }
+
+@media screen and (orientation: landscape) and (max-height: 360px) {
+  .menu .nav-link {
+    font-size: 15px; } }
