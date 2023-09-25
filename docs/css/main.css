@@ -146,6 +146,9 @@ header {
   z-index: 2;
   width: 100%; }
 
+.hidden {
+  display: none; }
+
 .text-secondary {
   color: #eece1a; }
 
@@ -213,6 +216,15 @@ main {
     .about-info .job svg {
       width: 100px;
       height: 100px; }
+
+#work .boxes {
+  justify-content: flex-start; }
+  #work .boxes div {
+    margin: 5px;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    padding: 5px;
+    cursor: pointer; }
 
 .projects {
   display: grid;

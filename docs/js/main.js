@@ -30,3 +30,24 @@ function toggleMenu() {
     showMenu = false
   }
 }
+let projects = document.querySelectorAll("#work .boxes div")
+
+ projects.forEach( item =>{
+	item.addEventListener("click", (e)=>{
+		e.preventDefault()
+		let datasetId = e.currentTarget.dataset.id
+		let listProjects = document.querySelectorAll(".item")
+		listProjects.forEach(listItem => {
+			if(listItem.classList.contains("hidden")){
+				listItem.classList.remove("hidden")
+			}
+			if(datasetId !== listItem.dataset.id){
+				listItem.classList.add("hidden")
+			}
+			if(datasetId === "all"){
+				listItem.classList.remove("hidden")
+			}
+		})
+	})
+ })
+
