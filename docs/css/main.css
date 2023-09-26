@@ -156,11 +156,6 @@ header {
     opacity: 0;
     visibility: hidden; } }
 
-.hidden {
-  animation-name: close;
-  animation-duration: 0.7s;
-  display: none; }
-
 .text-secondary {
   color: #eece1a; }
 
@@ -247,9 +242,12 @@ main {
     grid-template-columns: 1fr;
     grid-template-rows: 5fr;
     grid-gap: 0.5rem; }
+    .projects .item.hidden {
+      animation-name: close;
+      animation-duration: 0.7s;
+      display: none; }
   .projects .item + a {
-    grid-row-end: span 3;
-    height: 100%; }
+    grid-row-end: span 3; }
   .projects img {
     width: 100%;
     height: 100%;
