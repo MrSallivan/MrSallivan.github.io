@@ -37,17 +37,16 @@ let projects = document.querySelectorAll("#work .boxes div")
 		e.preventDefault()
 		let datasetId = e.currentTarget.dataset.id
 		let listProjects = document.querySelectorAll(".item")
-		listProjects.forEach(listItem => {
-			if(listItem.classList.contains("hidden")){
-				listItem.classList.remove("hidden")
-			}
-			if(datasetId !== listItem.dataset.id){
-				listItem.classList.add("hidden")
-			}
-			if(datasetId === "all"){
-				listItem.classList.remove("hidden")
-			}
-		})
+		listProjects.forEach((listItem) => {
+      if (datasetId !== listItem.dataset.id) {
+        listItem.classList.add("hidden")
+      } else {
+        listItem.classList.remove("hidden")
+      }
+      if (datasetId === "all") {
+        listItem.classList.remove("hidden")
+      }
+    })
 	})
  })
 
