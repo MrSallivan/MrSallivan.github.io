@@ -32,12 +32,12 @@ function toggleMenu() {
 }
 let projects = document.querySelectorAll("#work .boxes div")
 
- projects.forEach( item =>{
-	item.addEventListener("click", (e)=>{
-		e.preventDefault()
-		let datasetId = e.currentTarget.dataset.id
-		let listProjects = document.querySelectorAll(".item")
-		listProjects.forEach((listItem) => {
+projects.forEach((item) => {
+  item.addEventListener("click", (e) => {
+    e.preventDefault()
+    let datasetId = e.currentTarget.dataset.id
+    let listProjects = document.querySelectorAll(".item")
+    listProjects.forEach((listItem) => {
       if (listItem.classList.contains("hidden")) {
         listItem.classList.remove("hidden")
       }
@@ -48,6 +48,5 @@ let projects = document.querySelectorAll("#work .boxes div")
         listItem.classList.remove("hidden")
       }
     })
-	})
- })
-
+  })
+})

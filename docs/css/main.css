@@ -146,15 +146,15 @@ header {
   z-index: 2;
   width: 100%; }
 
-@keyframes close {
+@keyframes open {
   0% {
-    display: block;
-    opacity: 1;
-    visibility: visible; }
-  100% {
     display: none;
     opacity: 0;
-    visibility: hidden; } }
+    visibility: hidden; }
+  100% {
+    display: grid;
+    opacity: 1;
+    visibility: visible; } }
 
 .text-secondary {
   color: #eece1a; }
@@ -241,10 +241,10 @@ main {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 5fr;
-    grid-gap: 0.5rem; }
+    grid-gap: 0.5rem;
+    animation-name: open;
+    animation-duration: 1s; }
     .projects .item.hidden {
-      animation-name: close;
-      animation-duration: 0.7s;
       display: none; }
   .projects .item + a {
     grid-row-end: span 3; }
