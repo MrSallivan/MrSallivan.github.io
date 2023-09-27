@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>MaxGraph New Site</title>
+  <link rel="preload" href="fonts/Jost-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Jost-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Jost-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+<body class="page__body">
+    <div class="site-container">
+        <header class="header">
+    <div class="container-fluid header__container">
+        <a href="#" class="logo header__logo">Хочу говорить!</a>
+        <nav class="nav header__nav" title="Главное меню">
+            <ul class="list-reset nav__list" data-menu>
+                <li class="nav__item"><a href="#about" class="nav__link" data-menu-item>Обо мне</a></li>
+                <li class="nav__item"><a href="#who" class="nav__link" data-menu-item>Для кого</a></li>
+                <li class="nav__item"><a href="#why" class="nav__link" data-menu-item>Для чего</a></li>
+                <li class="nav__item"><a href="#price" class="nav__link" data-menu-item>Стоимость</a></li>
+                <div class="burger-close" data-menu-close></div>
+            </ul>
+        </nav>
+        <div class="social header__social" data-da=".nav__list,650,5">
+            <a class="social__link" href="#">
+                <svg class="social__svg">
+                    <use xlink:href="img/sprite.svg#insta"></use>
+                </svg>
+            </a>
+            <a class="social__link" href="#">
+                <svg class="social__svg">
+                    <use xlink:href="img/sprite.svg#telega"></use>
+                </svg>
+            </a>
+            <a class="social__link social__link_sm" href="#">
+                <svg class="social__svg">
+                    <use xlink:href="img/sprite.svg#mail"></use>
+                </svg>
+            </a>
+        </div>
+        <div class="header__burger">
+            <a class="call nav__call" href="tel:+88002001010">
+                <svg class="call__svg">
+                    <use xlink:href="img/sprite.svg#call"></use>
+                </svg>
+            </a>
+            <button class="burger nav__burger btn-reset" aria-label="Открыть меню" aria-expanded="false" data-burger>
+                <span class="burger__line"></span>
+            </button>
+        </div>
+    </div>
+</header>
+
+        <main class="main">
+            <section class="hero">
+    <div class="container hero__container">
+        <div class="hero__content">
+            <p class="hero__title">Хочу говорить!</p>
+            <h1 class="hero__maintitle">Авторский курс мастер-классов <br>
+                по ОРАТОРСКОМУ ИСКУССТВУ</h1>
+            <p class="hero__subtitle">от Марии Егоровой</p>
+            <button class="hero__link btn btn-reset" data-graph-path="modalWindow">Записаться на курс</button>
+            <blockquote class="blockquote-8">
+                <p>Перед тем, как что-то сказать или написать, ответь себе на вопрос: «И ЧТО?»</p>
+                <cite>Мария Егорова</cite>
+            </blockquote>
+        </div>
+        <div class="hero__image" data-da=".hero__content,820,3">
+            <img loading="lazy" src="img/woman.png" class="image" alt="Девушка, смотрящая вдаль">
+        </div>
+    </div>
+</section>
+            <section class="about" id="about">
+  <div class="container about__container">
+    <h2 class="about__title">Обо мне</h2>
+    <p class="about__text">Привет. Говорить — это мое любимое дело, ставшее профессиональным. Я телерадиоведущая, автор и продюсер TV и YouTube проектов. Я
+    — практик, собравший в систему все навыки, приобретенные чуть больше, чем за 10 лет жизни (работы). Эта система и стала
+    проектом «ХОЧУГОВОРИТЬ».</p>
+    <p class="about__text">
+      Я говорю о спорте на главном спортивном телеканале страны, настраиваю на правильную волну в своем вечернем шоу на
+      топовой радиостанции в Сочи (по версии премии «Радиомания-2018», моя программа — лучшая в России).
+    </p>
+    <button class="about__link btn btn-reset" data-graph-path="modalWindow">Записаться на курс</button>
+  </div>
+</section>
+
+            <section class="who" id="who">
+  <div class="who__container container">
+    <h2 class="who__title">Кому будет полезен проект «ХОЧУГОВОРИТЬ»:</h2>
+    <ul class="list-reset who__list">
+      <li class="who__item">
+        <div class="who__item-image">
+          <img src="../img/markets.svg" alt="изображение роста продаж" class="who__img">
+        </div>
+        <p class="who__text">Если твоя стихия — сфера продаж, обслуживания, консультирования. Для легких переговоров, быстрых продаж и сделок.
+        Заинтересовать клиента, быть эффектнее в конкурентной среде.</p>
+      </li>
+      <li class="who__item">
+        <div class="who__item-image">
+          <img src="../img/upr.svg" alt="фото управленца" class="who__img">
+        </div>
+        <p class="who__text">Если ты управленец, собственник бизнеса, общественный деятель. Рассказывать о себе, своем деле перед большой аудиторией.
+        Прокачать свои проекты, бизнес и, конечно, себя самого.</p>
+      </li>
+      <li class="who__item">
+        <div class="who__item-image">
+          <img src="../img/bloger.svg" alt="иконка блогера" class="who__img">
+        </div>
+        <p class="who__text">Если ты блогер (не обязательно начинающий), тебя вдохновляет работа в интернет-проектах. Мастер-классы помогут легко и
+        просто общаться с аудиторией через камеру, убрать все зажимы и страхи.</p>
+      </li>
+      <li class="who__item">
+        <div class="who__item-image">
+          <img src="../img/namaste.svg" alt="говорящие люди" class="who__img">
+        </div>
+        <p class="who__text">Если тебе просто хочется легче находить общий язык с людьми, узнать себя с иной стороны, орудовать словом, быть
+        интересным.</p>
+      </li>
+    </ul>
+  </div>
+
+</section>
+
+            <siction class="why" id="why">
+  <div class="container why__container">
+    <h2 class="why__title">Что тебе даст проект «ХОЧУГОВОРИТЬ»:</h2>
+    <div class="why__content">
+        <div class="why__item1" style="background-color: rgb(159, 228, 145);">
+            <div>
+                <span>Узнаешь</span> инструменты эффективного общения (твои планёрки и презентации, а может
+                и посиделки с родственниками станут
+                гораздо интереснее и продуктивнее, а страхи и неуверенность останутся в прошлом)
+            </div>
+        </div>
+        <div class="why__item2" style="background-color: rgb(177, 182, 213);">
+            <div><span>Твое</span> тело будет работать вместе с речью</div>
+        </div>
+        <div class="why__item3" style="background-color: rgb(174, 80, 195);">
+            <div><span>Сможешь</span> определить свои форматные признаки (это к слову о модном сейчас направлении
+                «я-бренд»)</div>
+        </div>
+        <div class="why__item4" style="background-color: rgb(233, 96, 67);">
+            <div><span>Сможешь</span> создавать проекты</div>
+        </div>
+        <div class="why__item5" style="background-color: rgb(104, 245, 112);">
+            <div><span>Поймешь</span>, как работать с вопросами</div>
+        </div>
+        <div class="why__item6" style="background-color: rgb(24, 56, 52);">
+            <div><span>Научишься </span>работать в кадре, вести прямые эфиры без растерянных взглядов и неловких пауз
+            </div>
+        </div>
+        <div class="why__item7" style="background-color: rgb(77, 11, 179);">
+            <div><span>Прокачаешь</span> креативность своих мыслей</div>
+        </div>
+        <div class="why__item8" style="background-color: rgb(48, 86, 177);">
+            <div><span>Поймешь</span>, как работать с информацией, чтобы она «играла за тебя»</div>
+        </div>
+        <div class="why__item9" style="background-color: rgb(185, 201, 95);">
+            <div><span>Научишься</span> писать так, чтобы не только ты, но и другие читали твои публикации
+                до конца</div>
+        </div>
+        <div class="why__item10" style="background-color: rgb(221, 206, 152);">
+            <div><span>Будешь</span> уверенно выступать перед публикой, управлять своими эмоциями, мимикой, жестами</div>
+        </div>
+        <div class="why__item11" style="background-color: rgb(171, 241, 232);">
+            <div><span>Начнешь</span> получать удовольствие от того, что ты делаешь</div>
+        </div>
+        <div class="why__item12" style="background-color: rgb(115, 14, 215);">
+            <div><span>Узнаешь</span>, как произвести впечатление и сделать эффективную презентацию продукта заказчику,
+                руководителю или партнерам</div>
+        </div>
+        <div class="why__item13" style="background-color: rgb(62, 50, 39);">
+            <div><span>Создашь</span> новые нейронные связи</div>
+        </div>
+        <div class="why__item14" style="background-color: rgb(96, 215, 80);">
+            <div><span>Избавишься</span> от зажимов и клише</div>
+        </div>
+        <div class="why__item15" style="background-color: rgb(113, 59, 150);">
+            <div><span>Научишься</span> презентовать себя аудитории, позиционировать как эксперта, умение проводить яркие
+                и увлекательные
+                мастер-классы, вебинары</div>
+        </div>
+        <div class="why__item16" style="background-color: rgb(254, 48, 192);">
+            <div><span>Научишься</span> презентовать идеи при выступлениях на совещаниях, переговорах, планерках</div>
+        </div>
+        <div class="why__item17" style="background-color: rgb(19, 200, 224);">
+            <div><span>Не мямлить</span>, а четко и грамотно доносить мысли</div>
+        </div>
+        <div class="why__item18" style="background-color: rgb(139, 24, 226);">
+            <div><span>Умение</span> подавать себя, управлять аудиторией</div>
+        </div>
+        <div class="why__item19" style="background-color: rgb(21, 172, 61);">
+            <div><span>Вовлекать</span> слушателей и проводить незабываемые выступления</div>
+        </div>
+        <div class="why__item20" style="background-color: rgb(69, 227, 89);">
+            <div><span>Начнешь</span> легко и непринужденно общаться и с близкими и с незнакомыми людьми
+            </div>
+        </div>
+        <div class="why__item21" style="background-color: rgb(160, 139, 39);">
+            <div><span>Поймешь</span>, как вдохновлять и руководить коллективом, а руководитель-это всегда хороший
+                оратор</div>
+        </div>
+        <div class="why__item22" style="background-color: rgb(247, 154, 214);">
+            <div><span>Станешь</span> уверенным при знакомстве</div>
+        </div>
+    </div>
+    </div>
+    <div class="container">
+        <button class="hero__link btn btn_why btn-reset" data-graph-path="modalWindow">Записаться на курс</button>
+    </div>
+</siction>
+
+            <section class="utility">
+    <div class="utility__container container">
+        <h2 class="utility__title">Почему проект «ХОЧУГОВОРИТЬ» тебе пригодится?</h2>
+        <p class="utility__text">Поток информации, в котором мы живем — это конкурентная среда, где можно и нужно
+        с легкостью ориентироваться и выделяться.
+        Говорить или писать о себе, о своем деле, о вопросах, волнующих тебя, хочется на самом высшем
+        уровне, без сомнений и клише, а всё это довольно непросто.</p>
+        <p class="utility__text">Сталкивались с ситуацией, что даже в компании близких людей сложно сформулировать свою мысль? От этого
+        сразу появляются внутренние зажимы, страхи и ты испытываешь стресс. А на совещании или презентации,
+        когда ком в горле или трясутся уголки губ…?</p>
+        <p class="utility__text">Ораторское мастерство — это не только о том, как говорить. Важно и то, что говорить, кому, для
+        чего? Как взаимодействовать с аудиторией, клиентами, партнерами, подчиненными, начальством? Для чего нужен текст,
+        как анализировать информацию, что такое самопрезентация и многое другое.</p>
+        <h2 class="utility__list-caption">Чем мы отличаемся от остальных:</h2>
+        <ul class="utility__list">
+            <li class="utility__item">Авторская программа</li>
+            <li class="utility__item">Индивидуальная работа</li>
+            <li class="utility__item">О сложном простыми словами</li>
+            <li class="utility__item">Реальный результат за короткое время</li>
+        </ul>
+    </div>
+</section>
+            <section class="lessons">
+    <div class="lessons__container container">
+        <h2 class="lessons__title">Описание уроков</h2>
+        <div class="lessons__list">
+            <li class="lessons__item">
+                <div class="lessons__item-left item-left">
+                    <div class="item-left__number number">
+                        <div class="number__circle"></div>
+                        <div class="number__num">1</div>
+                    </div>
+                    <div class="item-left__line"></div>
+                </div>
+                <div class="lessons__item-right">
+                    <h2 class="lessons__item-caption">Понимание себя, текста и смысла во взаимодействии с аудиторией.</h2>
+                    <p class="lessons__text">Три важных правила, которые помогут тебе уверенно чувствовать себя перед аудиторией, в эфире, в общении.
+                    Главный вопрос, на который нужно ответить перед выступлением. Процесс мысль-слово-тело.
+                    Как не стать заложником образа, кто может испортить твое выступление?
+                    Основные инструменты эффективного общения.</p>
+                </div>
+            </li>
+            <li class="lessons__item">
+                <div class="lessons__item-left item-left">
+                    <div class="item-left__number number">
+                        <div class="number__circle"></div>
+                        <div class="number__num">2</div>
+                    </div>
+                    <div class="item-left__line"></div>
+                </div>
+                <div class="lessons__item-right">
+                    <h2 class="lessons__item-caption">Инструменты работы с текстом.</h2>
+                    <p class="lessons__text">С чего начинать, как зацепить и удержать внимание аудитории. «Включающие» точки в твоем
+                    повествовании, образность мышления и ее помощники. Каким бывает интерактив и что с ним делать?
+                    Почему нужна система? Как закончить без фразы «у меня всё»?</p>
+                </div>
+            </li>
+            <li class="lessons__item">
+                <div class="lessons__item-left item-left">
+                    <div class="item-left__number number">
+                        <div class="number__circle"></div>
+                        <div class="number__num">3</div>
+                    </div>
+                    <div class="item-left__line"></div>
+                </div>
+                <div class="lessons__item-right">
+                    <h2 class="lessons__item-caption">Работа с вопросами/мозговой штурм.</h2>
+                    <p class="lessons__text">Как строить ассоциативный ряд? Какие вопросы помогут тебе разобраться в теме? Как разобраться в теме и подготовить
+                    презентацию/выступление, не похожую на другие. Как найти в старой теме новое дыхание? для чего нужны вопросы «от
+                    обратного»? Что поможет тебе добраться до глубокой мыли? Что такое и для чего нужны «жиза» и «правдники»?</p>
+                </div>
+            </li>
+            <li class="lessons__item">
+                <div class="lessons__item-left item-left">
+                    <div class="item-left__number number">
+                        <div class="number__circle"></div>
+                        <div class="number__num">4</div>
+                    </div>
+                    <div class="item-left__line"></div>
+                </div>
+                <div class="lessons__item-right">
+                    <h2 class="lessons__item-caption">Страхи, интонирование и отличительные признаки спикера.</h2>
+                    <p class="lessons__text">Чего мы боимся больше всего? Для чего нужны паузы и какими они бывают? Где искать смысловые слова, как они
+                    помогают слушателю «идти с тобой по повествованию»? Как работать с интонацией? Что такое
+                    форматные признаки, где их найти? Как «разбудить свой рот»: набор упражнений, которые помогут
+                    разработать речевой аппарат.</p>
+                </div>
+            </li>
+            <li class="lessons__item">
+                <div class="lessons__item-left item-left">
+                    <div class="item-left__number number">
+                        <div class="number__circle"></div>
+                        <div class="number__num">5</div>
+                    </div>
+                    <div class="item-left__line"></div>
+                </div>
+                <div class="lessons__item-right">
+                    <h2 class="lessons__item-caption">Жесты и подготовка к выступлению, работа на сцене.</h2>
+                    <p class="lessons__text">Что делать с руками, взглядом и движениями? Как подготовиться к выступлению на площадке. Выбор
+                    жестикуляции, как освоить новое пространство перед собой. Передвижения по сцене: рабочие точки. Что значит
+                    «жить» во время выступления.</p>
+                </div>
+            </li>
+            <li class="lessons__item">
+                <div class="lessons__item-left item-left">
+                    <div class="item-left__number number">
+                        <div class="number__circle"></div>
+                        <div class="number__num">6</div>
+                    </div>
+                    <div class="item-left__line"></div>
+                </div>
+                <div class="lessons__item-right">
+                    <h2 class="lessons__item-caption">Обработка информации, работа с источниками, подача.</h2>
+                    <p class="lessons__text">Какие источники информации тебе нужны и для чего? Как подойти к вопросу не с точки зрения пересказа,
+                    а с позиции
+                    первоисточника. Как создать структуру из собранной информации и проанализировать ее? Что делать, если
+                    у тебя мало
+                    времени на изучение информации, как ее подать и для чего нужны подводки (заход на повествование)?
+                    Краткое резюме по
+                    основным инструментам эффективного общения и работы с текстом и информацией при подготовке
+                    к выступлению.</p>
+                </div>
+            </li>
+        </div>
+    </div>
+</section>
+            <section class="tarifs" id="price">
+    <div class="tarifs__container container">
+        <h2 class="tarifs__title">тарифы</h2>
+        <div class="tarifs__content swiper">
+            <div class="tarifs__cards swiper-wrapper">
+                <div class="tarifs__card card swiper-slide">
+                    <div class="card__title">— START –</div>
+                    <div class="card__advantages">
+                        <div class="card__advantage">
+                            <div class="card__advantage-img">
+                                <img src="../img/yotube.png" alt="youtube_icon" />
+                            </div>
+                            <div class="card__advantage-text">
+                                6 видеоуроков в записи навсегда <br>(120 минут)
+                            </div>
+                        </div>
+                        <div class="card__advantage">
+                            <div class="card__advantage-img">
+                                <img src="../img/home_work.png" alt="homework_icon">
+                            </div>
+                            <div class="card__advantage-text">
+                                Домашнее задание
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__price-wrap">
+                        <div class="card__price card__price_cancel">8000 ₽</div>
+                        <div class="card__price">4900 ₽</div>
+                    </div>
+                    <a href="#" class="tarifs__btn-buy btn btn-reset">Купить</a>
+                </div>
+                <div class="tarifs__card card swiper-slide">
+                    <div class="card__title">— PRO –</div>
+                    <div class="card__advantages">
+                        <div class="card__advantage">
+                            <div class="card__advantage-img">
+                                <img src="../img/yotube.png" alt="youtube_icon" />
+                            </div>
+                            <div class="card__advantage-text">
+                                6 видеоуроков в записи навсегда <br>(120 минут)
+                            </div>
+                        </div>
+                        <div class="card__advantage">
+                            <div class="card__advantage-img">
+                                <img src="../img/home_work.png" alt="homework_icon">
+                            </div>
+                            <div class="card__advantage-text">
+                                Домашнее задание
+                            </div>
+                        </div>
+                        <div class="card__advantage">
+                            <div class="card__advantage-img">
+                                <img src="../img/meeting.png" alt="иконка конференции" />
+                            </div>
+                            <div class="card__advantage-text">
+                                Онлайн встречи с авторами курса
+                            </div>
+                        </div>
+                        <div class="card__advantage">
+                            <div class="card__advantage-img">
+                                <img src="../img/telegram.png" alt="telegram icon" />
+                            </div>
+                            <div class="card__advantage-text">
+                                Закрытая группа в Telegram с обратной связью
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__price-wrap">
+                        <div class="card__price card__price_cancel">25000 ₽</div>
+                        <div class="card__price">14990 ₽</div>
+                    </div>
+                    <a href="#" class="tarifs__btn-buy btn btn-reset">Купить</a>
+                </div>
+                <div class="tarifs__card card swiper-slide">
+                        <div class="card__title">— Индивидуальный –</div>
+                        <div class="card__advantages">
+                            <div class="card__advantage card__advantage_col">
+                                <div class="card__advantage-img">
+                                    <img src="../img/people.png" alt="people icon" />
+                                </div>
+                                <ul class="card__advantage-ul">
+                                    <li  class="card__advantage-li">Работа по индивидуальному запросу (работа в кадре, выступления, написание текстов, работа с видео-контентом, подготовка
+                                    ваших проектов, работа с зажимами, скоростью мысли/речи, управление голосом и многое другое)</li>
+                                    <li class="card__advantage-li">Несколько личных или онлайн встреч, в которых вы достигаете результата быстрее, а обучение становится эффективнее</li>
+                                    <li class="card__advantage-li">Цели, болевые точки и желаемые результаты обсуждаются перед тем, как выбрать «план действий»</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button class="tarifs__btn-buy btn btn-reset" data-graph-path="modalWindow">Оставить заявку</button>
+                </div>
+                <div class="tarifs__card card swiper-slide">
+                    <div class="card__title">— Корпоративный –</div>
+                    <div class="card__advantages">
+                        <div class="card__advantage card__advantage_col">
+                            <div class="card__advantage-img">
+                                <img src="../img/corp.png" alt="corp icon" />
+                            </div>
+                            <ul class="card__advantage-ul">
+                                <li class="card__advantage-li">Групповые мастер-классы для вашей команды: важные знания по эффективному общению, работе с клиентами, самопрезентации и
+                                презентации проектов, уверенная подача, как работать без «клише», что нужно, чтобы тебя слушали, как правильно слушать и
+                                работать с вопросами и другие «спасательные круги» взаимодействия с людьми.</li>
+                                <li class="card__advantage-li">Тематика мастер-класса прорабатывается совместно с заказчиком.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <button class="tarifs__btn-buy btn btn-reset" data-graph-path="modalWindow">Оставить заявку</button>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</section>
+
+            <section class="form">
+    <div class="form__container container">
+        <div class="form__content">
+            <div class="form__content-sale">
+                <h2 class="form__content-title">Запишитесь на курс<br> со скидкой 10%</h2>
+                <p class="form__content-text">Акция действительна до <span class="form__content-time"></span></p>
+            </div>
+            <div class="form__content-form">
+                <form class="form__form-body form-body" enctype="multipart/form-data" action="mail.php" method="post">
+                    <input type="hidden" name="admin_email[]" value="alexnikolaenko@yandex.ru">
+                    <div class="form-body__input">
+                        <input class="input-tel" type="tel" name="tel" id="tel" placeholder="Телефон">
+                    </div>
+                    <div class="form-body__input">
+                        <input class="input-name" type="text" name="name" id="name" placeholder="Имя">
+                    </div>
+                    <div class="form-body__input">
+                        <input class="input-email" type="email" name="email" id="email" placeholder="Email">
+                    </div>
+                    <button class="form-body__btn btn btn-reset" type="submit">Отправить</button>
+                    <div class="form-body__span">*Нажимая на кнопку, вы даете согласие на обработку персональных данных и соглашаетесь c политикой конфиденциальности</div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</section>
+        </main>
+        <footer class="footer">
+  <div class="footer__container container">
+      <div class="footer__content">
+        <a href="#" class="logo header__logo">Хочу говорить!</a>
+        <a href="tel:+78000001122" class="logo header__logo" >+7 (800-00) 0-11-22</a>
+      </div>
+  </div>
+</footer>
+
+        <div class="graph-modal">
+    <div class="graph-modal__container" role="dialog" aria-modal="true" data-graph-target="modalWindow">
+        <button class="btn-reset graph-modal__close" aria-label="Закрыть модальное окно">
+        Закрыть
+        </button>
+        <div class="graph-modal__content">
+            <div class="form__content-form">
+                <form class="form__form-body form-body" action="#" method="post">
+                    <div class="form-body__input">
+                        <input type="tel" name="tel" id="tel" placeholder="Телефон">
+                    </div>
+                    <div class="form-body__input">
+                        <input type="text" name="name" id="name" placeholder="Имя">
+                    </div>
+                    <div class="form-body__input">
+                        <input type="email" name="email" id="email" placeholder="Email">
+                    </div>
+                    <button class="form-body__btn btn btn-reset" type="submit">Отправить</button>
+                    <div class="form-body__span">*Нажимая на кнопку, вы даете согласие на обработку персональных данных и соглашаетесь
+                        c политикой конфиденциальности</div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+        <button id="myBtn" title="Go to top">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path style="fill:#141024;"
+					d="M47.875,24c0,13.186-10.689,23.875-23.875,23.875S0.125,37.186,0.125,24S10.814,0.125,24,0.125 S47.875,10.814,47.875,24z M25.503,16.881l6.994,7.049c0.583,0.588,1.532,0.592,2.121,0.008c0.588-0.583,0.592-1.533,0.008-2.122 l-9.562-9.637c-0.281-0.283-0.664-0.443-1.063-0.443c0,0,0,0-0.001,0c-0.399,0-0.782,0.159-1.063,0.442l-9.591,9.637 c-0.584,0.587-0.583,1.537,0.005,2.121c0.292,0.292,0.675,0.437,1.058,0.437c0.385,0,0.77-0.147,1.063-0.442L22.5,16.87v19.163 c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5L25.503,16.881z">
+                </path>
+            </svg>
+        </button>
+    </div>
+</body>
+
+</html>
