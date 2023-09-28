@@ -178,6 +178,8 @@ main {
     &.hidden {
       display: none;
     }
+
+		
   }
   .item + a {
     grid-row-end: span 3;
@@ -194,6 +196,8 @@ main {
       @include easeOut;
     }
   }
+
+
 }
 
 //!Contact page
