@@ -32,9 +32,9 @@ try {
   $mail->SMTPAuth   = true;
 
   // Настройки вашей почты
-  $mail->Host       = 'smtp.beget.com'; // SMTP сервера вашей почты
-  $mail->Username   = 'pochta@kresla27.ru'; // Логин на почте
-  $mail->Password   = '55ntlru27@'; // Пароль на почте
+  $mail->Host       = '####'; // SMTP сервера вашей почты
+  $mail->Username   = '####'; // Логин на почте
+  $mail->Password   = '####'; // Пароль на почте
   $mail->SMTPSecure = 'ssl';
   $mail->Port       = 465;
 
