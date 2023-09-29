@@ -1471,7 +1471,7 @@ a {
   margin-right: 20px;
   width: 30px;
   height: 30px;
-  background: url(../../img/icon.svg) 0 0/cover no-repeat;
+  background: url(../img/icon.svg) 0 0/cover no-repeat;
 }
 @media (max-width: 576px) {
   .utility__item {
